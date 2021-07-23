@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pro Card</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <div class ="container">
+            <div class="wrapper">
+                <a href="#">
+                    <img src="gayathri image.jpg" alt="">
+                </a>
+                <div class="text">
+                    <div class="title"><h2>Gayathri V</h2></div>
+                    <div class="place"><h4>Tamil Nadu, India</h4></div>
+                </div>
+            </div>
+            <div class="content">
+                <h4>User Interface Designer and Front-end Developer</h4>
+                <div class="buttons">
+                    <div class="btn">
+                        <button>Message</button>
+                    </div>
+                    <div class="btn">
+                        <button>Following</button>
+                    </div>
+                </div>
+                <div class="icons">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/instagram-new.png"/>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/linkedin.png"/>
+                    <img src="https://img.icons8.com/material-outlined/24/000000/github.png"/>
+                </div>
+            </div>
+           
+        </div>
+        <script>
+                const img = document.querySelector("img");
+                img.onclick = function(){
+                this.classList.toggle("active");
+                }
+            </script>
+    </body>
+</html>   
