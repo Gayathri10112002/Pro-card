@@ -1,3 +1,4 @@
 # Pro-card
-  ~ it is a static card and used some effects by CSS. 
+  ~ it is a static card , used many properties of css.
+  #learningcss
   # CSS , HTML
